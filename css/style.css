@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.to-do-container {
+    /* display: grid;
+    grid-template-columns: auto; */
+    justify-content: center;
+    align-items: center;
+    border: 2px soid black;
+    background-color: aqua;
+    height: 400px;
+    width: 300px;
+}
+.input {
+    /* align-items: center;
+    justify-content: center; */
+    border: none;
+    /* text-decoration: line; */
+    /* background-color: none; */
+    /* color: white; */
+    vertical-align: middle;
+    outline: none;
+    width: 150px;
+    height: 20px;
+}
+.add {
+    background-color: rgb(71, 226, 71);
+    color: white;
+    width: 65px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    transition: 1s;
+}
+.add:hover {
+    transition: 1s;
+    box-shadow: 2px 2px 2px 2px green;
+    /* width: 65px;
+    height: 35px; */
+}
+.tick {
+    background-color: rgb(71, 226, 71);
+    color: white;
+    width: 60px;
+    border: white;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 7px;
+    transition: 1s;
+}
+.tick:hover {
+    transition: 1s;
+    /* width: 65px;
+    height: 35px; */
+    box-shadow: 2px 2px 2px 2px green;
+    /* background-color: red; */
+}
+.del {
+    width: 60px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    transition: 1s;
+}
+.del:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
